@@ -1,6 +1,27 @@
+/*********
+Fonts
+*********/
+
+h1 {
+  font-family: 'Rock Salt', cursive;
+  color: #273854;
+}
+/*********
+Layout
+*********/
 
 
+/*********
+Color
+*********/
 
+/*********
+Image
+*********/
+
+img {
+  border-radius: 100%;
+}
 
 
 
