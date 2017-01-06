@@ -55,6 +55,7 @@ Color
 body {
   background-color: #94bed1;
 }
+
 .well {
   background-color: #387593;
   border-color: #536d77;
@@ -62,6 +63,14 @@ body {
 
 h1 {
   color: #273854;
+}
+
+.panel-heading {
+  background-color: #70a8c2;
+}
+
+.panel-body {
+  background-color: #d6dfe3;
 }
 
 /*********
