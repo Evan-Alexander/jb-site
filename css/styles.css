@@ -116,10 +116,42 @@ img {
   margin: auto;
 }
 
+/*********
+Media Queries
+*********/
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 1024px) and (max-width: 2500px){
+
+  #about-me {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+  }
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
   h1 {
     font-size: 1.5em;
+  }
+  #about-me {
+    color: red;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+  }
+
+  .about-me,
+  .interests {
+    text-align: center;
+  }
+
+  .interests ul {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: : center;
+    list-style-type: none;
+    padding: 5%;
   }
 
 }
