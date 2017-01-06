@@ -5,6 +5,16 @@ Fonts
 h1 {
   font-family: 'Rock Salt', cursive;
 }
+
+p {
+  font-family: 'Quicksand', sans-serif;
+}
+
+p::first-letter {
+  font-size: 1.5em;
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
+}
 /*********
 Layout
 *********/
@@ -15,6 +25,7 @@ Layout
 
 
 h1 {
+  font-size: 2.5em;
   text-align: center;
   padding-top: 2.5%;
   padding-bottom: 2.5%;
@@ -49,20 +60,11 @@ img {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 1.5em;
+  }
+}
 
 
 
