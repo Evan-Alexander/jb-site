@@ -62,7 +62,6 @@ h3 {
 #site-links ul {
   list-style-type: none;
   display: inline-block;
-  color: red;
   margin: 0 auto;
   text-align: : center;
 }
@@ -70,6 +69,7 @@ h3 {
 footer {
   text-align: center;
   padding: 1%;
+  margin-left: 3%;
 }
 
 /*********
@@ -122,9 +122,37 @@ img {
     font-size: 1.5em;
   }
 
-
 }
 
+@media screen and (max-width: 480px) {
+
+  .about-me,
+  .interests {
+    text-align: center;
+  }
+
+  .interests ul {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: : center;
+    list-style-type: none;
+    padding: 5%;
+  }
+
+  .list-left {
+    float: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  footer {
+    text-align: center;
+    padding: 1%;
+    margin-left: 4%;
+  }
+
+
+}
 
 
 
