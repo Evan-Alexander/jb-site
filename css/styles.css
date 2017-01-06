@@ -4,16 +4,38 @@ Fonts
 
 h1 {
   font-family: 'Rock Salt', cursive;
-  color: #273854;
 }
 /*********
 Layout
 *********/
+.container {
+  width: 80%;
+}
+
+
+
+h1 {
+  text-align: center;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+}
+
 
 
 /*********
 Color
 *********/
+body {
+  background-color: #94bed1;
+}
+.well {
+  background-color: #387593;
+  border-color: #536d77;
+}
+
+h1 {
+  color: #273854;
+}
 
 /*********
 Image
@@ -21,6 +43,9 @@ Image
 
 img {
   border-radius: 100%;
+  max-width: 100%;
+  display: block;
+  margin: auto;
 }
 
 
