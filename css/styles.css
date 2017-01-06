@@ -50,8 +50,22 @@ h3 {
   margin-right: 30%;
   margin-left: 10%;
 }
+#site-links {
+  text-align: center;
+}
 
+#site-links ul {
+  list-style-type: none;
+  display: inline-block;
+  color: red;
+  margin: 0 auto;
+  text-align: : center;
+}
 
+footer {
+  text-align: center;
+  padding: 1%;
+}
 
 /*********
 Color
@@ -69,8 +83,10 @@ body {
 .panel {
   box-shadow: 2px 2px 10px #5f9eba;
 }
+
 h1 {
   color: #273854;
+  text-shadow: 2px 2px 3px #3c4b65;
 }
 
 .panel-heading {
@@ -87,6 +103,9 @@ Image
 
 img {
   border-radius: 100%;
+  padding: 1px;
+  background-color: #273854;
+  border: 1px solid #000;
   max-width: 100%;
   display: block;
   margin: auto;
