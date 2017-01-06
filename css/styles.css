@@ -1,23 +1,23 @@
 /*********
 Fonts
 *********/
+body {
+  font-size: 2em;
+  font-family: 'Poiret One', cursive;
+}
 
 h1 {
   font-family: 'Rock Salt', cursive;
 }
 
-p {
-  font-family: 'Quicksand', sans-serif;
-}
 
-p::first-letter {
-  font-size: 1.5em;
-  font-family: 'Poiret One', cursive;
-  font-weight: bold;
-}
+
 /*********
 Layout
 *********/
+h2 {
+  text-align: center;
+}
 .container {
   width: 80%;
 }
