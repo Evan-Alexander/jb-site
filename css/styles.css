@@ -14,8 +14,6 @@ a {
   text-decoration: none;
 }
 
-
-
 /*********
 Layout
 *********/
@@ -24,6 +22,7 @@ h2,
 h3 {
   text-align: center;
 }
+
 .container {
   width: 80%;
 }
@@ -37,10 +36,12 @@ h1 {
 h3 {
   padding-bottom: 2.5%;
 }
+
 .panel-title {
   font-size: 1em;
   font-weight: bold;
 }
+
 .panel-body {
   padding: 20px;
 }
@@ -75,6 +76,7 @@ footer {
 /*********
 Color
 *********/
+
 body {
   background-color: #94bed1;
 }
