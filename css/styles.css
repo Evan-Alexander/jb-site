@@ -126,7 +126,6 @@ Media Queries
     display: flex;
     flex-direction: column;
     align-content: space-between;
-    color: green;
   }
 
 }
@@ -137,7 +136,6 @@ Media Queries
     font-size: 1.5em;
   }
   #about-me {
-    color: blue;
     text-align: center;
   }
 
@@ -153,10 +151,6 @@ Media Queries
   #about-me {
     text-align: center;
   }
-  .about-me,
-  .interests {
-    color: red;
-  }
 
   .interests ul {
     display: inline-block;
@@ -166,6 +160,10 @@ Media Queries
   .list-left {
     float: none;
     margin-bottom: -10%;
+  }
+
+  .list-right {
+    padding-left: 0;
   }
 
   footer {
