@@ -12,6 +12,10 @@ This website is my for my first code review at Epicodus.  It highlights my inter
 * From terminal - $ git clone {repository url}*
 * Open file 
 
+* For your convenience, here is a link to my GitHub page:
+
+https://evan-alexander.github.io/jb-site/
+
 ## No known bugs exist
 
 ## Contact details
